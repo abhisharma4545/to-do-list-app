@@ -23,6 +23,6 @@ listContainer.addEventListener( "click", function(e){
 
     }
     else if (e.target.tagName === "SPAN"){
-        e.target.parentELement.remove();
+        e.target.parentElement.remove();
     }
 }, false);
